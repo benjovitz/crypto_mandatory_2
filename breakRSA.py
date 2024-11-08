@@ -9,7 +9,7 @@ c = m_array_encrypted[0]
 
 def break_m(equal):
     for i in range(1000):
-        test = (i**17) % 629
+        test = i**e % n
         if test == equal:
             return i
 
